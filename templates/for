@@ -1,0 +1,145 @@
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <p class="section-title bg-white text-center text-primary px-3">Our Products</p>
+            <h1 class="mb-5">Our Dairy Products For Healthy Living</h1>
+        </div>
+        <div class="row gx-4">
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="product-item">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{% static 'img/product-1.jpg' %}" alt="">
+                        <div class="product-overlay">
+                            <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
+                            <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <a class="d-block h5" href="">Pure Milk</a>
+                        <span class="text-primary me-1">₹60.00</span>
+                        <span class="text-decoration-line-through">₹65.00</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="product-item">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{% static 'img/product-3.jpg' %}" alt="">
+                        <div class="product-overlay">
+                            <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
+                            <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <a class="d-block h5" href="">Dairy Products</a>
+                        <span class="text-primary me-1">₹80.00</span>
+                        <span class="text-decoration-line-through">₹100.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="product-item">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{% static 'img/paneer__.jpg' %}" alt="">
+                        <div class="product-overlay">
+                            <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
+                            <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <a class="d-block h5" href="">Paneer</a>
+                        <span class="text-primary me-1">₹435.00</span>
+                        <span class="text-decoration-line-through">₹480.00</span>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="product-item">
+                <div class="position-relative">
+                    <img class="img-fluid" src="{% static 'img/clarified butter.jpg' %}" alt="">
+                    <div class="product-overlay">
+                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
+                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
+                    </div>
+                </div>
+                <div class="text-center p-4">
+                    <a class="d-block h5" href="">Clarified Butter (Ghee)</a>
+                    <span class="text-primary me-1">₹700.00</span>
+                    <span class="text-decoration-line-through">₹750.00</span>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row gx-4">
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="product-item">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{% static 'img/cheese2.jpg' %}" alt="">
+                        <div class="product-overlay">
+                            <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
+                            <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <a class="d-block h5" href="">Cheese</a>
+                        <span class="text-primary me-1">₹60.00</span>
+                        <span class="text-decoration-line-through">₹65.00</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="product-item">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{% static 'img/buttermilk.jpg' %}" alt="">
+                        <div class="product-overlay">
+                            <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
+                            <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <a class="d-block h5" href="">Buttermilk</a>
+                        <span class="text-primary me-1">₹20.00</span>
+                        <span class="text-decoration-line-through">₹40.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="product-item">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="{% static 'img/curd.png' %}" alt="">
+                        <div class="product-overlay">
+                            <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
+                            <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center p-4">
+                        <a class="d-block h5" href="">Curd (Dahi)</a>
+                        <span class="text-primary me-1">₹80.00</span>
+                        <span class="text-decoration-line-through">₹100.00</span>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="product-item">
+                <div class="position-relative">
+                    <img class="img-fluid" src="{% static 'img/clarified butter.jpg' %}" alt="">
+                    <div class="product-overlay">
+                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-link"></i></a>
+                        <a class="btn btn-square btn-secondary rounded-circle m-1" href=""><i class="bi bi-cart"></i></a>
+                    </div>
+                </div>
+                <div class="text-center p-4">
+                    <a class="d-block h5" href="">Clarified Butter (Ghee)</a>
+                    <span class="text-primary me-1">₹700.00</span>
+                    <span class="text-decoration-line-through">₹750.00</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!-- Product End -->
